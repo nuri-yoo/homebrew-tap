@@ -1,27 +1,27 @@
 class BranchWatch < Formula
   desc "Track branch and fork sync status across your GitHub repositories"
   homepage "https://github.com/nuri-yoo/branch-watch"
-  version "0.2.0"
+  version "0.3.0"
 
   on_macos do
     on_arm do
       url "https://github.com/nuri-yoo/branch-watch/releases/download/v#{version}/branch-watch-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "a52bf4c5ba783f9afbb6c75f447b8ba3eac019c0028b9f73de9beb3dbf564e1a"
+      sha256 "a497776b8c1ece2100a634803a4b4f51afaa2eb8f61ed01b0bf12771b2a1444c"
     end
     on_intel do
       url "https://github.com/nuri-yoo/branch-watch/releases/download/v#{version}/branch-watch-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "c1881dfcf140c0fc4511cec1cb9e8891317fd7c7409ae4d69256bea0c63d23fe"
+      sha256 "210c812a5c95f1d3287a2b0dfdf37c20faea071c25f81ad8b6766d7c6165872a"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/nuri-yoo/branch-watch/releases/download/v#{version}/branch-watch-v#{version}-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "d05d639721bf7e917964996bca933de2c786cfea007933a16612eb313b866794"
+      sha256 "c33ad298e60a9690a7ce54da811460ef6ba68fbcd525937c530a50279c0c36e2"
     end
     on_intel do
       url "https://github.com/nuri-yoo/branch-watch/releases/download/v#{version}/branch-watch-v#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "711426d275df9ddee1a2672b9fb713dee7dbfe7529842b70e0d64b3ffaedd930"
+      sha256 "78bf84a893c39c3244adff4bfaf5133c1d7899b6891813c35210604190d82430"
     end
   end
 
